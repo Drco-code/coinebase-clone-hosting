@@ -70,7 +70,7 @@ const GridSection = () => {
           </div>
 
           <div className="w-full md:w-1/2 flex justify-center">
-            <div className="w-full max-w-md bg-gray-100 rounded-2xl p-6 flex items-center justify-center">
+            <div className="w-full max-w-md bg-gray-15 rounded-2xl p-6 flex items-center justify-center">
               <img
                 src={ZeroFees}
                 alt="Coinbase One benefits screenshot"
@@ -84,7 +84,7 @@ const GridSection = () => {
         {/* Third Row: Base App */}
         <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
           <div className="w-full md:w-1/2 flex justify-center">
-            <div className="w-full max-w-sm bg-gray-100 rounded-2xl p-6 flex items-center justify-center">
+            <div className="w-full max-w-sm bg-gray-15 rounded-2xl p-6 flex items-center justify-center">
               <img
                 src={CB}
                 alt="Base App screenshot"
