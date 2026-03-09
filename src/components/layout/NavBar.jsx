@@ -22,6 +22,7 @@ const NavBar = () => {
   const [activeCategory, setActiveCategory] = useState(null);
   const closeTimer = useRef(null);
 
+  // sections
   const navSections = [
     { name: "Cryptocurrencies", component: null },
     { name: "Individuals", component: <IndividualsDropdown /> },
